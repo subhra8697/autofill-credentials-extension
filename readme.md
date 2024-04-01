@@ -21,7 +21,7 @@ Secure Storage: Safely stores encrypted user credentials locally.
   * Access the extension settings to manage your saved credentials.
   * Here, you can add new credentials, edit existing ones, or delete outdated entries.
 ## __License__
-This extension is released under the [MIT LICENSE](). See the LICENSE file for more details.
+This extension is released under the [MIT LICENSE](LICENSE). See the LICENSE file for more details.
 
 ## __Disclaimer__
 This extension is provided as-is without any warranties. Use at your own risk. We are not responsible for any loss or damage caused by the use of this extension.
