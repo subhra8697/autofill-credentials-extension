@@ -1,0 +1,34 @@
+{
+    "name": "AutoFill Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Automatically fill credentials in login/signup forms",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "webNavigation",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "run_at": "document_end",
+            "all_frames": true,
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
